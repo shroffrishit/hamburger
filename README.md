@@ -19,8 +19,9 @@ Time spent: `8 hours`
 - [ ] Optional: Pulling down the profile page should blur and resize the header image.
 
 #### Home Timeline
-- [ ] Tapping on a user image should bring up that user's profile page
-- [ ] Optional: Account switching
+- [X] Tapping on a user image should bring up that user's profile page
+
+#### Optional: Account switching
 - [ ] Long press on tab bar to bring up Account view with animation
 - [ ] Tap account to switch to
 - [ ] Include a plus button to Add an Account
