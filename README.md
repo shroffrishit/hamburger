@@ -26,5 +26,5 @@ Time spent: `12 hours`
 
 ### Walkthrough
 
-![Video Walkthrough](hamburger.gif)
+![Video Walkthrough](hamburgur.gif)
 
