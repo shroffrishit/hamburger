@@ -1,8 +1,8 @@
 ## myTwitter
 
-This is an app to create ios twitter client using twitter rest api's and OAuth 
+Small app to demostrate animations via Hamburger menu.
 
-Time spent: `12 hours` 
+Time spent: `8 hours` 
 
 ### Features
 
@@ -24,7 +24,7 @@ Time spent: `12 hours`
 - [ ] Long press on tab bar to bring up Account view with animation
 - [ ] Tap account to switch to
 - [ ] Include a plus button to Add an Account
-- [ ]Swipe to delete an account
+- [ ] Swipe to delete an account
 
 ### Walkthrough
 
