@@ -1,0 +1,5 @@
+#include "Pods-SEHumanizedTimeDiff.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/SEHumanizedTimeDiff" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BDBOAuth1Manager" "${PODS_ROOT}/Headers/Public/SEHumanizedTimeDiff"
+OTHER_LDFLAGS = ${PODS_SEHUMANIZEDTIMEDIFF_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

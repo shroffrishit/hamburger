@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController">
+            <connections>
+                <outlet property="headerView" destination="jZR-OY-rGT" id="j7C-9d-vGH"/>
+                <outlet property="infoCollectionView" destination="h3e-a9-s7d" id="snX-lH-wlX"/>
+                <outlet property="profileImage" destination="5Sy-WR-qls" id="4DO-v0-1fe"/>
+                <outlet property="screenName" destination="OTX-vA-ky8" id="O8F-H0-FYV"/>
+                <outlet property="userName" destination="I8k-kG-yeH" id="vuK-nt-cYK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" highlightedImage="Twitter_logo_white_32.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Sy-WR-qls">
+                    <rect key="frame" x="14" y="50" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Ioz-TV-weO"/>
+                        <constraint firstAttribute="width" constant="100" id="xMk-Bq-QWr"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZR-OY-rGT">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="2xm-2h-5Mb"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XQU-b1-aH2">
+                    <rect key="frame" x="0.0" y="160" width="320" height="2"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="ITc-VK-tsm"/>
+                    </constraints>
+                </view>
+                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="h3e-a9-s7d">
+                    <rect key="frame" x="0.0" y="162" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="5c7-jk-Mf6"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="1" minimumInteritemSpacing="0.0" id="cds-jO-BFf">
+                        <size key="itemSize" width="106" height="40"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bmW-in-bNa">
+                    <rect key="frame" x="0.0" y="202" width="320" height="2"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="Pka-3m-8L9"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rishit Shroff" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8k-kG-yeH">
+                    <rect key="frame" x="122" y="108" width="91" height="19.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@shroff_rishit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTX-vA-ky8">
+                    <rect key="frame" x="122" y="131.5" width="74.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="h3e-a9-s7d" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="23i-7m-vEJ"/>
+                <constraint firstItem="XQU-b1-aH2" firstAttribute="top" secondItem="5Sy-WR-qls" secondAttribute="bottom" constant="10" id="5oE-Yg-glM"/>
+                <constraint firstItem="5Sy-WR-qls" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="14" id="5ok-LY-Ind"/>
+                <constraint firstAttribute="trailing" secondItem="XQU-b1-aH2" secondAttribute="trailing" id="H5x-NG-vSv"/>
+                <constraint firstItem="h3e-a9-s7d" firstAttribute="top" secondItem="XQU-b1-aH2" secondAttribute="bottom" id="Hmz-T4-u9i"/>
+                <constraint firstItem="OTX-vA-ky8" firstAttribute="top" secondItem="I8k-kG-yeH" secondAttribute="bottom" constant="4" id="IvS-an-fqd"/>
+                <constraint firstAttribute="trailing" secondItem="h3e-a9-s7d" secondAttribute="trailing" id="V9d-e2-Kf2"/>
+                <constraint firstItem="jZR-OY-rGT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Vlc-KU-vk6"/>
+                <constraint firstItem="XQU-b1-aH2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XB6-ad-prI"/>
+                <constraint firstItem="jZR-OY-rGT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Xc1-d9-rWQ"/>
+                <constraint firstItem="5Sy-WR-qls" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="aBU-4F-XyW"/>
+                <constraint firstItem="bmW-in-bNa" firstAttribute="top" secondItem="h3e-a9-s7d" secondAttribute="bottom" id="bWu-R5-5Gx"/>
+                <constraint firstItem="bmW-in-bNa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="igz-3I-1k6"/>
+                <constraint firstItem="I8k-kG-yeH" firstAttribute="top" secondItem="jZR-OY-rGT" secondAttribute="bottom" constant="8" id="jAm-jg-FCo"/>
+                <constraint firstAttribute="trailing" secondItem="bmW-in-bNa" secondAttribute="trailing" id="ooH-PE-pXD"/>
+                <constraint firstItem="OTX-vA-ky8" firstAttribute="leading" secondItem="5Sy-WR-qls" secondAttribute="trailing" constant="8" id="oqX-LW-iqt"/>
+                <constraint firstItem="I8k-kG-yeH" firstAttribute="leading" secondItem="5Sy-WR-qls" secondAttribute="trailing" constant="8" id="r7p-iw-K2i"/>
+                <constraint firstAttribute="trailing" secondItem="jZR-OY-rGT" secondAttribute="trailing" id="vy1-y6-g6Y"/>
+            </constraints>
+            <point key="canvasLocation" x="344" y="393"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Twitter_logo_white_32.png" width="32" height="32"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
